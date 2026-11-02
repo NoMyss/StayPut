@@ -14,8 +14,11 @@ The siren stops by itself after the time you set (default 30 s). If the MacBook 
 
 ## Install
 
-1. Copy `StayPut.app` to **Applications**.
-2. Open it. The app isn't notarized by Apple, so the first time macOS blocks it. Go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. Alternatively, run this once in Terminal:
+### Installation
+1. Download `StayPut-macOS-v1.zip`.
+2. Extract the ZIP file.
+3. Move `StayPut.app` to your **Applications** folder.
+4. Open the application. The app isn't notarized by Apple, so the first time macOS blocks it. Go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. Alternatively, run this once in Terminal:
    ```
    xattr -dr com.apple.quarantine /Applications/StayPut.app
    ```
