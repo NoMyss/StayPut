@@ -13,8 +13,6 @@ StayPut is a small menu bar app for Apple Silicon MacBooks. Before you leave you
 The siren stops by itself after the time you set (default 30 s). If the MacBook keeps being moved, it starts again.
 
 ## Install
-
-### Installation
 1. Download `StayPut-macOS-v1.zip`.
 2. Extract the ZIP file.
 3. Move `StayPut.app` to your **Applications** folder.
